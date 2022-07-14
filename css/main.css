@@ -50,12 +50,12 @@ section {
     line-height: 1.4;
 }
 
-btn-default{
+.btn-default{
     color: white;
     background-color: #faa541;
 }
 
-btn-primary{
+.btn-primary{
     color: white;
     background-color: #364147;
 }
@@ -118,7 +118,7 @@ btn-primary{
 }
 
 .nav-list{
-    padding: 0;
+    padding-left: 0;
     width: 575px;
     margin-top: 10px;
 }
@@ -141,13 +141,13 @@ btn-primary{
     font-size: 18px;
 }
 
-.account a href{
+.account a{
     font-size: 14px;
 }
 
-.profile-pic .container{
-    height: 60;
-    width: 60;
+.profile-pic{
+    height: 60px;
+    width: 60px;
 }
 
 .profile-pic img{
