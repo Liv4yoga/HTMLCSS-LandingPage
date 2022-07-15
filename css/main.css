@@ -244,7 +244,7 @@ section {
     position: relative;
 }
 
-.full-banner:before{
+.full-banner :before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -255,7 +255,7 @@ section {
     z-index: 1;
 }
 
-.full-banner-image{
+.full-banner-image {
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
